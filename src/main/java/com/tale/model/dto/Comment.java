@@ -30,4 +30,19 @@ public class Comment extends Comments {
         setCid(comments.getCid());
     }
 
+    public int getLevels() {
+        return levels;
+    }
+
+    public void setLevels(int levels) {
+        this.levels = levels;
+    }
+
+    public List<Comments> getChildren() {
+        return children;
+    }
+
+    public void setChildren(List<Comments> children) {
+        this.children = children;
+    }
 }
